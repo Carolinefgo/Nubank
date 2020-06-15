@@ -18,8 +18,22 @@ body {
 
 
 }
+#pedro{
+    font-size: 24px;
+    margin-left: 76px;
+    margin-top: 80px;
+   margin-bottom: 20px;
+   margin-right: 20px;
+   line-height: 60px;
+}
 
-
+#pequeno{
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 50px;
+   margin-bottom: 20px;
+   margin-right: 20px; 
+}
 
 /* class:
 .minhaclas{}
