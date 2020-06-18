@@ -9,30 +9,74 @@ body {
     background-color: #8a05be;
     font-family: sans-serif;
     color: #FFFF;
+    overflow-y: scroll ;
 }
 
 #header {
     width: 100%;
-    height: 11vh;
+    height: 11.5vh;
     background-color: white;
-
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 #pedro{
-    font-size: 24px;
-    margin-left: 76px;
+    font-family:Graphik-Medium, Graphik-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    margin-left: 148px;
     margin-top: 80px;
    margin-bottom: 20px;
    margin-right: 20px;
    line-height: 60px;
+   letter-spacing: -0.03em
 }
 
 #pequeno{
     font-size: 20px;
-    margin-left: 80px;
+    margin-left: 148px;
     margin-top: 50px;
    margin-bottom: 20px;
    margin-right: 20px; 
+}
+#roxo
+{
+    width: 30vh;
+    height: 11.5vh;
+    display:flex;
+    align-items: center;
+    background-color:#8a05be ;
+    justify-content: center;
+    color: white;
+    box-shadow: 2px 2px rgba(0,0,0,0.2);
+    border: none;
+    font-weight: bold;
+    font-size: 2.5vh;
+
+}
+#roxo:hover{
+    background-color:#8a05be ;
+    opacity: 0.5;
+}
+.Logo{
+    margin-left: 25px;
+    
+    
+}
+.quadradopreto{
+    width: 100vh;
+    height: 85vh;
+    background-color: #191919;
+    margin-left: 100px;
+
+    margin-top: 60px;
+}
+#quadradobranco{
+    width: 95vh;
+    height: 85vh;
+    background-color: #FFFF;
+    margin-left: 650px;
+    margin-top: 60px;
+    
 }
 
 /* class:
