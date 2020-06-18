@@ -62,22 +62,31 @@ body {
     
     
 }
-.quadradopreto{
-    width: 100vh;
-    height: 85vh;
-    background-color: #191919;
+.quadrados{
+    width: 180vh;
+    height: 100vh;
     margin-left: 100px;
+    margin-top: 60px;
+    font-size: 50px;
+    display: flex;
+    margin-bottom: 20px;
+}
+#preto{
+    background-color: #191919;
+    width: 50%;
+    height: 100%;
+    color:#FFFF
 
-    margin-top: 60px;
+
 }
-#quadradobranco{
-    width: 95vh;
-    height: 85vh;
+#branco{
     background-color: #FFFF;
-    margin-left: 650px;
-    margin-top: 60px;
-    
+    width: 50%;
+    height: 100%;
+
 }
+    
+
 
 /* class:
 .minhaclas{}
